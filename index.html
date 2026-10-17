@@ -9,83 +9,60 @@
 body{font-family:Inter,sans-serif;background:#fbfaf7;color:#111}
 .container{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.65fr 0.85fr;gap:30px;padding:20px}
 @media(max-width:900px){.container{grid-template-columns:1fr}}
-.cover-box{height:440px;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.15);position:relative;overflow:hidden}
+.cover-img{width:100%;height:440px;object-fit:cover;border-radius:18px;border:2.5px solid #D4AF37;box-shadow:0 10px 30px rgba(0,0,0,.15);display:block}
 </style>
 </head>
 <body>
-
-<div style="background:#111;color:#D4AF37;text-align:center;padding:10px;font-size:11px;font-weight:700;letter-spacing:1px;">رفيق الباحث • 150 PROMPTS • 94.66% AUDIT • 1000 ONLY</div>
+<div style="background:#111;color:#D4AF37;text-align:center;padding:10px;font-size:11px;font-weight:700">رفيق الباحث • 150 PROMPTS • 94.66% AUDIT • FIRST EDITION 1000 ONLY</div>
 
 <div class="container">
 <div>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
-<span style="background:#111;color:#fff;padding:7px 13px;border-radius:20px;font-size:10px;font-weight:700">FIRST EDITION — 1000</span>
+<span style="background:#111;color:#fff;padding:7px 13px;border-radius:20px;font-size:10px;font-weight:700">FIRST EDITION 1000</span>
 <span style="background:#fff;border:1.5px solid #0f5132;color:#0f5132;padding:7px 13px;border-radius:20px;font-size:10px;font-weight:700">0 CLAIMED • 1000 LEFT</span>
-<span style="background:#111;color:#D4AF37;padding:7px 13px;border-radius:20px;font-size:10px;font-weight:700">9.466/10 AUDIT</span>
+<span style="background:#111;color:#D4AF37;padding:7px 13px;border-radius:20px;font-size:10px;font-weight:700">AUDIT 9.466/10</span>
 </div>
 
-<h1 style="font-size:44px;font-weight:800;line-height:.95;letter-spacing:-1px">The Islamic Scholar's<br>AI Companion</h1>
-<div style="font-size:18px;color:#222;margin:10px 0">رَفِيقُ البَاحِثِ — لإعانة الباحث في البحوث الإسلامية</div>
-<p style="font-size:13px;color:#555;max-width:620px;line-height:1.7">150 Source-Disciplined Prompts • Master Frame • Evidence Ledger • Amanah Protocol • First Edition 2026</p>
+<h1 style="font-size:44px;font-weight:800;line-height:.95">The Islamic Scholar's<br>AI Companion</h1>
+<p style="margin:10px 0;font-size:14px;color:#555">150 Source-Disciplined Prompts • Master Frame • Evidence Ledger • First Edition 2026 • Research aid, not fatwa</p>
 
-<!-- COVERS - ALWAYS VISIBLE - NO EXTERNAL IMAGE NEEDED -->
+<!-- COVERS - USING YOUR EXACT GITHUB FILENAMES -->
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px">
-
-<!-- COVER 1 - WILL ALWAYS SHOW -->
-<div class="cover-box" style="background:radial-gradient(circle at 50% 0%, #222 0%, #050505 100%);border:2.5px solid #D4AF37;">
-<div style="position:absolute;top:14px;left:14px;right:14px;bottom:14px;border:1px solid rgba(212,175,55,.4);border-radius:12px;pointer-events:none"></div>
-<div style="font-size:42px;color:#D4AF37;font-weight:800;border:2px solid #D4AF37;padding:12px 18px;border-radius:12px">رفيق</div>
-<div style="color:#fff;font-size:20px;font-weight:800;margin-top:18px;line-height:1.1">Rafiq<br>Al-Bahith</div>
-<div style="color:#D4AF37;font-size:10px;letter-spacing:1px;margin-top:8px">279 PAGES • FIRST EDITION</div>
-<div style="background:#D4AF37;color:#111;padding:6px 14px;border-radius:20px;font-size:10px;font-weight:800;margin-top:16px">150 PROMPTS • AUDITED</div>
+<img src="image_1.jpg" alt="Rafiq Al-Bahith Front Cover" class="cover-img">
+<img src="back_cover.jpg" alt="Constellation Map Back Cover" class="cover-img" style="border-color:#111">
 </div>
 
-<!-- COVER 2 - WILL ALWAYS SHOW -->
-<div class="cover-box" style="background:linear-gradient(160deg, #0f5132 0%, #052e1a 100%);border:2.5px solid #111;">
-<div style="width:56px;height:56px;background:rgba(255,255,255,.15);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;color:#fff">✦</div>
-<div style="color:#fff;font-size:18px;font-weight:800;margin-top:14px">Constellation Map<br>of Audits</div>
-<div style="color:#a7f3d0;font-size:11px;margin-top:6px">150 Prompts • 94.66% Score</div>
-<div style="margin-top:16px;border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:10px;width:100%;max-width:180px;text-align:left">
-<div style="display:flex;justify-content:space-between;color:#fff;font-size:10px;margin-bottom:6px"><span>Master Frame</span><span>✓</span></div>
-<div style="display:flex;justify-content:space-between;color:#fff;font-size:10px;margin-bottom:6px"><span>Evidence Ledger</span><span>✓</span></div>
-<div style="display:flex;justify-content:space-between;color:#fff;font-size:10px"><span>Amanah Protocol</span><span>✓</span></div>
-</div>
+<!-- OPTIONAL FLIP BOOK VIDEO -->
+<div style="margin-top:20px">
+<video autoplay loop muted playsinline style="width:100%;border-radius:18px;border:2px solid #111">
+<source src="flip_book.mp4" type="video/mp4">
+</video>
 </div>
 
 </div>
-</div>
 
-<!-- RIGHT - BUY BOX - CORRECT FAEQ LINKS -->
 <div>
 <div style="position:sticky;top:20px;background:#fff;border:2.5px solid #D4AF37;border-radius:20px;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.1)">
-
 <div style="background:#111;color:#D4AF37;text-align:center;padding:10px;border-radius:30px;font-size:11px;font-weight:800">0/1000 CLAIMED • 1000 LEFT</div>
 
 <div style="margin-top:16px;border:1.8px solid #111;border-radius:14px;padding:18px">
-<div style="font-size:10px;color:#888;font-weight:700">FOR SCHOLARS</div>
-<div style="font-size:34px;font-weight:800;margin:6px 0">$19.99</div>
-<a href="https://faeq.gumroad.com/l/rafiq-al-bahith" target="_blank" style="display:block;background:#111;color:#D4AF37;text-align:center;padding:14px;border-radius:11px;text-decoration:none;font-weight:800">Get Full Price →</a>
+<div style="font-size:34px;font-weight:800">$19.99</div>
+<a href="https://faeq.gumroad.com/l/rafiq-al-bahith" target="_blank" style="display:block;background:#111;color:#D4AF37;text-align:center;padding:14px;border-radius:11px;text-decoration:none;font-weight:800;margin-top:8px">Get Full Price →</a>
 </div>
 
 <div style="margin-top:14px;border:2.5px solid #0f5132;border-radius:14px;padding:18px;background:#f0fdf4">
-<div style="display:flex;justify-content:space-between"><div style="font-size:11px;color:#0f5132;font-weight:800">TALIB-E-ILM • LIMITED</div><div style="font-size:10px;background:#dc2626;color:#fff;padding:4px 8px;border-radius:20px;font-weight:800">1000 ONLY</div></div>
+<div style="display:flex;justify-content:space-between"><div style="font-size:11px;color:#0f5132;font-weight:800">TALIB-E-ILM • 1000 ONLY</div><div style="font-size:10px;background:#dc2626;color:#fff;padding:4px 8px;border-radius:20px;font-weight:800">1000 ONLY</div></div>
 <div style="display:flex;gap:8px;align-items:baseline;margin:10px 0"><div style="font-size:34px;font-weight:800;color:#0f5132">$11.99</div><div style="text-decoration:line-through;color:#999">$19.99</div><div style="background:#0f5132;color:#fff;padding:3px 7px;border-radius:5px;font-size:11px">40% OFF</div></div>
-<div style="font-size:11px;color:#dc2626;font-weight:700;margin-bottom:12px">CODE: TALIB40 • 0/1000 USED</div>
-<label style="display:flex;gap:9px;font-size:11px;background:#fff;padding:10px;border-radius:8px;border:1px solid #bbf7d0;cursor:pointer"><input type="checkbox" id="oathCheck" style="width:16px;height:16px"><span><b>Oath:</b> I use for Halal research only, with Amanah.</span></label>
+<div style="font-size:11px;color:#dc2626;font-weight:700;margin-bottom:12px">CODE: TALIB40 • 0/1000 USED • Auto-applies</div>
+<label style="display:flex;gap:9px;font-size:11px;background:#fff;padding:10px;border-radius:8px;border:1px solid #bbf7d0;cursor:pointer"><input type="checkbox" id="oathCheck" style="width:16px;height:16px"><span><b>Oath:</b> I use for Halal research only.</span></label>
 <a id="talibBtn" href="#" style="display:block;background:#ccc;color:#fff;text-align:center;padding:14px;border-radius:10px;text-decoration:none;font-weight:800;margin-top:12px;pointer-events:none;opacity:.5">🔒 Check Oath to Unlock</a>
-<div style="font-size:10px;color:#666;text-align:center;margin-top:8px">Secure Gumroad • faeq.gumroad.com • PDF in 2h</div>
 </div>
 
-<div style="margin-top:16px;padding-top:14px;border-top:1px solid #eee">
-<div style="font-size:10px;font-weight:800;color:#666;margin-bottom:10px">TRUST SEALS • VERIFIED</div>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">🔒 SSL Secure</div>
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">📜 Meezan 1121</div>
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">🏦 3023 Clear Bank</div>
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">⚡ PDF in 2h</div>
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">🛡️ Amanah</div>
-<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center;font-weight:600">🇺🇸 Cross River</div>
-</div>
+<div style="margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:8px">
+<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center">🔒 SSL Secure</div>
+<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center">📜 Meezan 1121</div>
+<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center">🏦 3023 Clear Bank</div>
+<div style="border:1px solid #eee;padding:10px;border-radius:8px;font-size:11px;background:#fafafa;text-align:center">⚡ PDF in 2h</div>
 </div>
 
 </div>
